@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Transflower</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="scripts/angular.min.js"></script>
+  <script src="scripts/app.js"></script>
+</head>
+<body ng-app="seed">
+    <div ng-controller="DetailController">
+            <h1>Welcome to <u>{{name | lowercase}}</u></h1>
+            <h3>Chief Mentor :</h3>
+            <p> <b>{{person.firstName}} </b> {{person.lastName}}</p>
+            <p>  Salary : {{person.salary |currency:"&#8377;"}}</p>
+   
+        </div>
+</body>
+</html>

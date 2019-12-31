@@ -1,0 +1,14 @@
+{
+  "name": "estoreweb",
+  "version": "1.0.0",
+  "description": "THis is a simple fullstack Web application for ECommerce",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ravi Tambade",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
